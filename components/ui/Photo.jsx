@@ -1,4 +1,3 @@
-"use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -21,7 +20,7 @@ export default function Photo() {
         }}
         className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
           <Image
-            src="./Public/assets/Photo.png"
+            src="/assets/Photo.png"
             priority
             quality={100}
             fill
