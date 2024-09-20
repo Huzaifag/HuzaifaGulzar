@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  unoptimized : true,
+  images: {
+    domains: ['huzaifa-gulzar.vercel.app'],
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
