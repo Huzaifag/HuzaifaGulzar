@@ -18,7 +18,7 @@ export default function Photo() {
           transition: { delay: 2.4, duration: 0.4, ease: 'easeInOut' },
         }}
         className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
-          <image
+          <img
             src="/assets/Photo.png"
             priority
             quality={100}
